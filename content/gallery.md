@@ -4,14 +4,13 @@ title: Gallery
 
 # Gallery
 
-Use this page for lab events and photo captions. Put image files under `assets/gallery/`, then link them from Markdown.
+A migrated gallery draft using photos from the original MIPAL site.
 
-## Lab Moments
+## Photos
 
-- **Workshop** - Add a short caption and image link.
-- **Conference** - Add accepted-paper photos, travel snapshots, or poster sessions.
-- **Celebration** - Add graduation, award, and group-photo entries.
-
-## Image Syntax
-
-`![Group photo](assets/gallery/group-photo.jpg)`
+![MIPAL gallery photo 1](assets/gallery/gallery-01.jpg)
+![MIPAL gallery photo 2](assets/gallery/gallery-02.jpg)
+![MIPAL gallery photo 3](assets/gallery/gallery-03.jpg)
+![MIPAL gallery photo 4](assets/gallery/gallery-04.jpg)
+![MIPAL gallery photo 5](assets/gallery/gallery-05.jpg)
+![MIPAL gallery photo 6](assets/gallery/gallery-06.jpg)
