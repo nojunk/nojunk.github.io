@@ -339,6 +339,24 @@ a {
   text-underline-offset: 3px;
 }
 
+.markdown-image {
+  display: inline-block;
+  width: calc((100% - 42px) / 4);
+  margin: 4px 10px 14px 0;
+  vertical-align: top;
+}
+
+.markdown-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f4f6f2;
+  box-shadow: 0 10px 28px rgba(14, 24, 42, 0.12);
+}
+
 .markdown hr {
   height: 1px;
   margin: 40px 0;
@@ -424,6 +442,10 @@ a {
   .hero-copy {
     padding-bottom: 48px;
   }
+
+  .markdown-image {
+    width: calc((100% - 28px) / 3);
+  }
 }
 
 @media (max-width: 520px) {
@@ -442,6 +464,10 @@ a {
 
   .content-panel {
     padding: 24px 18px;
+  }
+
+  .markdown-image {
+    width: calc((100% - 16px) / 2);
   }
 
   .site-footer {

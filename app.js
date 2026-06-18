@@ -37,9 +37,13 @@ function escapeHtml(value) {
 
 function inlineMarkdown(value) {
   let text = escapeHtml(value);
+  text = text.replace(
+    /!\[([^\]]*)\]\(([^)]+)\)/g,
+    '<img src="$2" alt="$1" loading="lazy" decoding="async" />',
+  );
   text = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   text = text.replace(/\*(.+?)\*/g, "<em>$1</em>");
-  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>');
   return text;
 }
 
@@ -124,6 +128,14 @@ function renderMarkdown(markdown) {
       flushList();
       flushQuote();
       html.push(`<h${heading[1].length}>${inlineMarkdown(heading[2])}</h${heading[1].length}>`);
+      continue;
+    }
+
+    if (/^!\[[^\]]*\]\([^)]+\)$/.test(line)) {
+      flushParagraph();
+      flushList();
+      flushQuote();
+      html.push(`<figure class="markdown-image">${inlineMarkdown(line)}</figure>`);
       continue;
     }
 

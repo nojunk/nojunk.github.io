@@ -1,0 +1,45 @@
+name: Import MIPAL content
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/scripts/import_mipal.py"
+      - ".github/workflows/import-mipal-content.yml"
+      - "app.js"
+      - "styles.css"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-mipal-content
+  cancel-in-progress: true
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pillow
+      - name: Import legacy content
+        run: python .github/scripts/import_mipal.py --out "$RUNNER_TEMP/mipal-extracted" --site-root . --write-site --download-images
+      - name: Commit generated content
+        run: |
+          git status --short
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A content assets/gallery assets/members
+            git commit -m "Populate MIPAL migrated content [skip ci]"
+            git push
+          else
+            echo "No generated content changes."
+          fi
