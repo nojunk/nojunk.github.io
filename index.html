@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Machine Intelligence & Pattern Analysis Laboratory at Seoul National University"
+    />
+    <meta property="og:title" content="MIPA Laboratory" />
+    <meta
+      property="og:description"
+      content="Machine Intelligence & Pattern Analysis Laboratory, Seoul National University"
+    />
+    <meta property="og:type" content="website" />
+    <title>MIPA Laboratory</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="MIPA Laboratory home">
+        <span class="brand-mark">MI</span>
+        <span>
+          <strong>MIPA Laboratory</strong>
+          <small>Seoul National University</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home" data-route="home">Home</a>
+        <a href="#notice" data-route="notice">Notice</a>
+        <a href="#members" data-route="members">Members</a>
+        <a href="#publications" data-route="publications">Publications</a>
+        <a href="#gallery" data-route="gallery">Gallery</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/hero-lab.svg"
+          alt=""
+        />
+        <div class="hero-scrim"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">컴퓨터 지능 및 패턴인식 연구실</p>
+          <h1 id="hero-title">MIPA Laboratory</h1>
+          <p>
+            Machine Intelligence & Pattern Analysis Laboratory at Seoul National University.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">View Publications</a>
+            <a class="button secondary" href="mailto:nojunk@snu.ac.kr">nojunk@snu.ac.kr</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-band" aria-label="Research themes">
+        <div>
+          <strong>Machine Intelligence</strong>
+          <span>learning systems, representation, reasoning</span>
+        </div>
+        <div>
+          <strong>Pattern Analysis</strong>
+          <span>vision, multimodal data, recognition</span>
+        </div>
+        <div>
+          <strong>Research Culture</strong>
+          <span>open problems, rigorous experiments, collaboration</span>
+        </div>
+      </section>
+
+      <section class="page-shell">
+        <aside class="page-index" aria-label="Section navigation">
+          <a href="#home" data-route="home">Home</a>
+          <a href="#notice" data-route="notice">Notice</a>
+          <a href="#members" data-route="members">Members</a>
+          <a href="#publications" data-route="publications">Publications</a>
+          <a href="#gallery" data-route="gallery">Gallery</a>
+        </aside>
+        <article class="content-panel">
+          <div class="content-kicker" id="content-kicker">Markdown driven</div>
+          <div id="content" class="markdown" aria-live="polite"></div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>MIPA Laboratory</strong>
+        <span>Machine Intelligence & Pattern Analysis Laboratory</span>
+      </div>
+      <a href="mailto:nojunk@snu.ac.kr">nojunk@snu.ac.kr</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
