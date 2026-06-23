@@ -6,8 +6,9 @@ title: Notice
 
 Recent notices migrated from the original MIPAL site.
 
-- Two papers have been accepted for ICML 2026 (Multimodal Mixture-of-Experts, LLM Quantization)
-- Two papers have been accepted for IJCAI 2026 (Video Generation, Few-shot NeRF)
+- Three papers have been accepted for ECCV 2026 (4D Gaussian Splatting, Denoising Diffusion Policy Optimization, Zero-Shot Quantization )
+- Two papers have been accepted for ICML 2026. (Multimodal Mixture-of-Experts, LLM Quantization)
+- Two papers have been accepted for IJCAI 2026. (Video Generation, Few-shot NeRF)
 - A paper has been accepted for IEEE TPAMI. (Explainable AI for Vision -- Effective Receptive Field)
 - Two papers have been accepted for ACL 2026. (Template Infilling for Diffusion-based Language Models, Multi-lingual Unlearning)
 - A paper has been accepted for CVPR 2026. (Image generation model fingerprinting)

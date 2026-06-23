@@ -76,7 +76,7 @@ This page mirrors the current member sections from the original MIPAL website.
 - **Sungmo Kim** - sungmo96@snu.ac.kr
 - **Hyeongseok Lee** - #Diffusion, CV [tjdgns2048@snu.ac.kr](mailto:tjdgns2048@snu.ac.kr)
 - **Sangbum Han** - #LLM [snuhsb@snu.ac.kr](mailto:snuhsb@snu.ac.kr)
-- **Jaewon Jang** - #3DVision [pert0407@snu.ac.kr](mailto:pert0407@snu.ac.kr)
+- **Jaewon Jang** - #3DVision [pert0407@snu.ac.kr](mailto:pert0407@snu.ac.kr); [🌐](https://jaewon040.github.io/) [📚](https://scholar.google.com/citations?hl=en&user=K_U4ZMQAAAAJ)
 - **Junmo Koo** - junmo.koo@snu,ac.kr
 - **Mijin Koo** - # AI Safety; [starmj09@snu.ac.kr](mailto:starmj09@snu.ac.kr); [LinkedIn](https://www.linkedin.com/in/mijinkoo/)
 - **Juhwan Cho** - #3DVision #Video; hj99cho@snu,ac.kr

@@ -31,6 +31,9 @@ Publication lists are organized following the original MIPAL categories.
 ## International Conferences
 
 ### 2026
+- **Multi-dimensional Preference Alignment by Conditioning Reward Itself** - Jiho Jang, Jin-Young Kim, Kyungjune Baek, Nojun Kwak; European Conference on Computer Vision ( ECCV 2026 ), Sep. 2026
+- **Zero-Shot Quantization for Object Detectors using Off-the-Shelf Generative Models** - Hyunho Lee*, Kyomin Hwang*, Hyeonjin Kim*, Suyoung Kim, Sunghyun Wee, Nojun Kwak; European Conference on Computer Vision ( ECCV 202 6 ), Sep . 202 6
+- **4DGS360: 360° Gaussian Reconstruction of Dynamic Objects from a Single Video** - Jae Won Jang, Yeonjin Chang, Wonsik Shin, Juhwan Cho, Nojun Kwak; European Conference on Computer Vision ( ECCV 2026 ), Sep. 2026 ( [project page](https://jaewon040.github.io/4dgs360/) , [arXiv](https://arxiv.org/abs/2603.21618) )
 - **Team MKC at CLPsych 2026: Capturing and Characterizing Mental Health Changes through Social Media Timeline Dynamics** - Kyomin Hwang*, Hyeonjin Kim*, Hyunho Lee*, Nojun Kwak; The 11th Workshop on Computational Linguistics and Clinical Psychology ( ACLW 2026) , July 2026
 - **Bootstrapping Video Interaction Generation with Synthetic State Transitions** - Jiho Jang, Jinyoung Kim, Nojun Kwak, Kyungjune Baek; The 35th International Joint Conference on Artificial Intelligence (IJCAI 2026) , August 2026
 - **DivCon-NeRF: Diverse and Consistent Ray Augmentation for Few-Shot NeRF** - Ingyun Lee, Jae Won Jang, Seunghyeon Seo, Nojun Kwak; The 35th International Joint Conference on Artificial Intelligence (IJCAI 2026) , August 2026 ( [arXiv](https://arxiv.org/abs/2503.12947) )
