@@ -84,7 +84,7 @@ This page mirrors the current member sections from the original MIPAL website.
 - **Geunwon Jun**
 - **Yun Kim** - #Large Language Model; yunkimmy@snu.ac.kr
 - **Sehoon Kim** - [ksh0113@snu.ac.kr](mailto:ksh0113@snu.ac.kr)
-- **Seungyeon Kim** - #VLA; [syeonkim@snu.ac.kr](mailto:syeonkim@snu.ac.kr)
+- **Seungyeon Kim** - # WAM #VLA; [syeonkim@snu.ac.kr](mailto:syeonkim@snu.ac.kr); [Linkedin](https://www.linkedin.com/in/seungyeonkim1/)
 - **Soohong Kim** - #3DVision; shk00315@snu.ac.kr
 - **Seoyeon Ahn** - # VLM; [ahnsy0809@snu.ac.kr](mailto:ahnsy0809@snu.ac.kr)
 
